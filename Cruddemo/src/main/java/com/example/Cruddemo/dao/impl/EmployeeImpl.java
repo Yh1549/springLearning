@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
+// with JPA
 @Repository
 public class EmployeeImpl implements EmployeeDAO {
     private EntityManager entityManager;
